@@ -50,7 +50,7 @@ span {
   font-size: 25px;
   color: rgba(114, 114, 114, 0.8);
 }
-.logo{
+.fh5co-navbar-brand .logo{
   padding-left: 20px;
 }
 
@@ -184,7 +184,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   bottom: 0;
   z-index: 1000;
 }
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   #fh5co-hero .flexslider .flex-control-nav {
     bottom: -15em;
   }
@@ -194,7 +194,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   #fh5co-hero .flexslider .flex-control-nav {
     bottom: -10em;
   }
-}
+} */
 #fh5co-hero .flexslider .flex-control-nav li a {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: none;
@@ -222,7 +222,7 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;
-  vertical-align: middle;
+  vertical-align:middle;
   height: 700px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -238,13 +238,30 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   font-size: 20px;
 }
 
+
 @media screen and (max-width: 768px) {
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 20px;
   }
 
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner{
+    vertical-align: top;
+  }
+
   #fh5co-hero .flexslider .slider-text > .slider-text-inner span {
     font-size: 14px;
+  }
+
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner .text1{
+    padding-top: 120px;
+  }
+
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner .text2{
+    padding-top: 300px;
+  }
+
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner .text3{
+    padding-top: 200px;
   }
 
 
@@ -497,14 +514,14 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
     top:206px;
     left:34px;
     font-size:18px;
-    width: auto;
+    width: 200px;
   }
 
   .info .tel{
     top:200px;
     left:80px;
     font-size:20px;
-    width: auto;
+    width: 200px;
 
   }
 
