@@ -107,6 +107,21 @@ header .fh5co-navbar-brand h1 {
   display: block;
   font-family: Pretendard;
 }
+
+.headerBlock{
+  display: flex;
+  flex-direction: row;
+}
+
+.headerText{
+  font-size: 40px;
+  padding-top:20px;
+  padding-left: 10px;
+  font-weight: bolder;
+  color: #4a4a4a;
+  letter-spacing: 6px;
+}
+
 header .fh5co-navbar-brand .fh5co-logo {
   font-size: 24px;
   text-transform: uppercase;
